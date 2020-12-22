@@ -7,12 +7,12 @@ body {
     flex-direction: column;
 }
 
-/* input checkbox para desaparcer da pagina */
+/* input checkbox para desaparecer da pagina */
 #check {
     display: none;
 }
 
 /* Propriedade que faz a mudança da cor do texto*/
 #check:checked ~ .h1 {
-    color: blue;
+    color: rgb(255, 0, 0);
 }
